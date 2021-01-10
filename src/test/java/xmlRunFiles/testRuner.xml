@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My Test Suite" verbose="1">
+    <test name="Test1">
+        <classes>
+            <class name="Tests.FirstTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+<!--        mvn clean package -DsuiteXmlFile=src/test/java/xmlRunFiles/testRuner.xml-->
